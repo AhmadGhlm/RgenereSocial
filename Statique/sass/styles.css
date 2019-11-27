@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 html {
   margin: 0;
   padding: 0;
@@ -13,6 +14,37 @@ html {
   list-style: none;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #242424;
+  width: 100%;
+  height: 20em;
+}
+.navbar h1 {
+  color: #ffffff;
+  font-size: 5em;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar_items ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+.navbar_items ul ul li {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: tomato;
 }
 
 .container {
