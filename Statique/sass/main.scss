@@ -1,0 +1,20 @@
+// 1. Abstracts
+@import "./abstracts/functions", "./abstracts/mixins", "./abstracts/variables";
+
+// 2. Vendors
+// @import "./vendors/";
+
+// 3. Base stuff
+@import "./base/reset", "./base/fonts";
+
+// 4. Layout-related sections
+@import "./layout/header", "./layout/footer";
+
+// 5. Components
+@import "./components/searchbar";
+
+// 6. Page-specific styles
+@import "./pages/home";
+
+// 7. Themes
+@import "./themes/default";
