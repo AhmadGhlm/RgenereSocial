@@ -3,16 +3,20 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
 
-  ul li {
-    font-size: 2rem;
-    font-family: "Poppins", sans-serif;
-    color: #ffffff;
-  }
+.liste {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+}
+
+a {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: tomato;
+  color: rgb(255, 21, 72);
 }
